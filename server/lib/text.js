@@ -17,3 +17,9 @@ export function countWords(text) {
 	const trimmed = String(text ?? '').trim();
 	return trimmed ? trimmed.split(/\s+/).length : 0;
 }
+
+/** "3 words" / "1 word": a note's length for its card footer. */
+export function wordCountLabel(text) {
+	const count = countWords(text);
+	return `${count} ${count === 1 ? 'word' : 'words'}`;
+}
