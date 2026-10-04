@@ -1,0 +1,16 @@
+{
+  "name": "pulse-notes",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Pulse Notes: a small notes dashboard built on Node built-ins only.",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/*.test.js",
+    "lint": "eslint server web test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

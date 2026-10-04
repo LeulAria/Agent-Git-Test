@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pulse Notes</title>
+	<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+	<header class="top">
+		<h1>Pulse Notes</h1>
+	</header>
+	<section class="welcome" aria-labelledby="welcome-heading">
+		<h2 id="welcome-heading">Welcome</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<button type="button" id="get-started">Get Started</button>
+	</section>
+	<main class="layout">
+		<section class="panel" aria-labelledby="overview-heading">
+			<h2 id="overview-heading">Overview</h2>
+			<dl id="stats" class="stats"></dl>
+		</section>
+
+		<section class="panel" aria-labelledby="new-heading">
+			<h2 id="new-heading">New note</h2>
+			<form id="new-note">
+				<label for="title">Title</label>
+				<input id="title" name="title" autocomplete="off" required>
+				<label for="body">Note</label>
+				<textarea id="body" name="body" rows="3"></textarea>
+				<button type="submit">Sumbit</button>
+			</form>
+		</section>
+
+		<section class="panel notes-panel" aria-labelledby="notes-heading">
+			<h2 id="notes-heading">Notes</h2>
+			<label for="search" class="visually-hidden">Search notes</label>
+			<input id="search" type="search" placeholder="Search notes" autocomplete="off">
+			<ul id="notes" class="notes"></ul>
+		</section>
+	</main>
+	<script type="module" src="/app.js"></script>
+</body>
+</html>
