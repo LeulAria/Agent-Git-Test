@@ -14,3 +14,12 @@ test('finds notes by title', () => {
 test('returns nothing when no title matches', () => {
 	assert.deepEqual(searchNotes(notes, 'zebra'), []);
 });
+
+test('ignores case and searches bodies', () => {
+	assert.deepEqual(searchNotes(notes, 'pizza').map(n => n.id), [1]);
+	assert.deepEqual(searchNotes(notes, 'BUDGET').map(n => n.id), [2]);
+});
+
+test('an empty query finds nothing', () => {
+	assert.deepEqual(searchNotes(notes, '   '), []);
+});
