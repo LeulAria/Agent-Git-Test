@@ -4,5 +4,5 @@ export function searchNotes(notes, query) {
 	if (!needle) {
 		return [];
 	}
-	return notes.filter(note => note.title.includes(needle) || String(note.body ?? '').toLowerCase().includes(needle));
+	return notes.filter(note => note.title.toLowerCase().includes(needle) || String(note.body ?? '').toLowerCase().includes(needle));
 }
