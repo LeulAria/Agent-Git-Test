@@ -41,5 +41,5 @@ export function createApp({ dataFile = process.env.NOTES_FILE ?? 'data/notes.jso
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
 	const port = Number(process.env.PORT ?? 4310);
 	const { server } = createApp();
-	server.listen(port, () => log.info(`Pulse Notes on http://localhost:${port}`));
+	server.listen(port, () => log.info(`Ton Notes on http://localhost:${port}`));
 }
