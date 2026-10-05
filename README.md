@@ -12,3 +12,5 @@ npm test
 Search matches note titles and bodies, ignoring case.
 
 Case does not matter: "Milk" finds "milk".
+
+Tip: each note card shows its word count.
