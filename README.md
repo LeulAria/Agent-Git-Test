@@ -10,3 +10,5 @@ npm test
 ## Search tips
 
 Search matches note titles and bodies, ignoring case.
+
+Case does not matter: "Milk" finds "milk".
