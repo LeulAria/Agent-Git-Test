@@ -1,1 +1,1 @@
-export const broken = (;
+export const broken = () => {};
