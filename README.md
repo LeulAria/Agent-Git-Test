@@ -12,3 +12,4 @@ npm test
 Search matches note titles and bodies, ignoring case.
 
 Case does not matter: "Milk" finds "milk".
+- Checked by the Volt PR parity run.
