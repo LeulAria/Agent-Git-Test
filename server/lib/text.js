@@ -6,7 +6,7 @@ export function normalizeTitle(title) {
 	return String(title)
 		.normalize('NFKD')
 		.replace(/[̀-ͯ]/g, '')
-		.toLowerCase()
+		
 		.replace(/[^\p{L}\p{N}]+/gu, ' ')
 		.replace(stop, ' ')
 		.replace(/\s+/g, ' ')
