@@ -1,4 +1,4 @@
-# Pulse Notes
+# Pulse Notes (with tags)
 
 A small notes dashboard built on Node built-ins only. Used to exercise Volt's pull-request workflow.
 
