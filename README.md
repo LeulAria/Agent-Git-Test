@@ -16,3 +16,4 @@ Case does not matter: "Milk" finds "milk".
 ## Tags
 
 Notes can carry tags.
+Tags are case-insensitive.
