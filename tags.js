@@ -5,3 +5,5 @@ export function tags(note) {
 export function hasTag(note, tag) {
   return tags(note).some(t => t.toLowerCase() === tag.toLowerCase());
 }
+
+export const TAG_PATTERN = /#\w+/g;
