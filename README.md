@@ -1,4 +1,4 @@
-# Pulse Notes
+# Pulse Notes (with tags)
 
 A small notes dashboard built on Node built-ins only. Used to exercise Volt's pull-request workflow.
 
@@ -12,3 +12,8 @@ npm test
 Search matches note titles and bodies, ignoring case.
 
 Case does not matter: "Milk" finds "milk".
+
+## Tags
+
+Notes can carry tags.
+Tags are case-insensitive.
