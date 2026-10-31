@@ -12,3 +12,7 @@ npm test
 Search matches note titles and bodies, ignoring case.
 
 Case does not matter: "Milk" finds "milk".
+
+## Tags
+
+Notes can carry tags.
