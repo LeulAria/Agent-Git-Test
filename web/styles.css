@@ -137,3 +137,7 @@ button {
 	overflow: hidden;
 	clip: rect(0 0 0 0);
 }
+
+@media (prefers-color-scheme: dark) {
+	body { background: #111; color: #eee; }
+}
